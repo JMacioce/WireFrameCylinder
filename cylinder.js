@@ -7,7 +7,7 @@ camera.position.z = 10;
 
 //render scene
 const renderer = new THREE.WebGLRenderer();
-renderer.setSize(500, 300); //(width, height)
+renderer.setSize(1000, 600); //(width, height)
 document.body.appendChild(renderer.domElement);
 
 //create 3D object(s)
